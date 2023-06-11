@@ -1,0 +1,79 @@
+body{
+    /* border: 2.2vh solid white; */
+    /* height: 200vh; */
+    margin: 0;
+    /* background-color: rgba(255, 68, 0, 0.772); */
+    padding: 0;
+}
+
+
+.intro-pic{
+    height: 25vh;
+    margin: 10vh auto;
+    display: flex;
+    border: 1.2vh solid white;
+    border-radius: 50%;
+}
+.main-horizontal-container{
+    /* display: inline-flex;
+    flex-direction: row;
+     */
+     width: 100vh;
+     height: 100vw;
+     transform: rotate(-90deg) translateX(-100vh);
+     transform-origin: top left;
+     overflow-y: scroll;
+     overflow-x: hidden;
+     position: absolute;
+     scrollbar-width: none;
+     -ms-overflow-style: none;
+     ;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.content-wrapper{
+    display: flex;
+    flex-direction: row;
+    width: 400vw;
+    transform: rotate(90deg)translateY(-100vh);
+    transform-origin: top left;
+    background-image: url(images/vecteezy_alien-planet-landscape-with-ice-and-flying-islands_13280776.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+}
+.section-1,
+.section-2,
+.section-3,
+.section-4{
+    width: 100vw;
+    height: 100vh;
+}
+.section-1{
+    /* background-color: red; */ 
+    /* background-image: url(images/tree.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* color: red; */
+}
+.section-2{
+    /* background-color: blue; */
+    /* background-image: url(images/tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    color: red;
+}
+.section-3{
+    /* background-color: green; */
+    /* background-image: url(images/tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    color: red;
+} 
+.section-4{
+    /* background-color: yellow; */
+    /* background-image: url(images/tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    color: red;
+}
