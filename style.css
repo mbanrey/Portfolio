@@ -53,7 +53,7 @@ body {
   border-radius: 25px;
   display: flex;
   flex-direction: column;
-  opacity: 0.9;
+  background-color: #380036;
 }
 .menu {
     left: 15%;
@@ -67,8 +67,14 @@ body {
     font-family: 'Iceberg', cursive;
     background-image: linear-gradient(0deg,#380036
     ,#0CBABA );
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.in:hover{
+  content: url(images/linkedin-logo.png);
+  width: 45px;
+  height: 45px;
 }
 .in {
     width: 40px;
@@ -78,11 +84,22 @@ body {
     margin:0 auto;
     display: flex;
 }
+.cat:hover{
+  content: url(images/github-mark.png);
+  width: 45px;
+  height: 45px;
+
+}
 .cat{
     width: 40px;
     background-color: #0CBABA;
-    margin: 0 auto;
-    display: flex;
+    margin:0 auto;
+    /* display: flex; */
+}
+.email:hover{
+  content: url(images/email.png);
+  width: 45px;
+  
 }
 .email{
     width: 40px;
@@ -98,4 +115,5 @@ body {
     height: 45px;
     padding: 15px;
     background-color: #0CBABA;
+    min-height: 45px;
 }
