@@ -334,6 +334,7 @@ body {
     text-align: center;
 }
 .skills-sub-title{
+  margin: 3vh 2vw;
   text-align: left;
   font-size: 35px;
     font-family: 'Iceberg', cursive;
@@ -356,6 +357,7 @@ body {
     position:relative;
 }
 .about-title{
+  /* margin: 1vh 2vw; */
   text-align: center;
   font-size: 35px;
     font-family: 'Iceberg', cursive;
@@ -365,4 +367,37 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position:relative;
+}
+.modul2 p{
+  margin: .2vh 4vw;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Iceberg', cursive;
+  background-image: linear-gradient(0deg,#380036
+  ,#0CBABA );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position:relative;
+}
+.favs{
+  background-image: linear-gradient(0deg,#b6380d
+    ,#a5990f );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fav-button{
+  width: 30vw;
+  border: none;
+  border-radius: none;
+  color: white;
+  background-color: #0CBABA;
+  margin: auto;
+  height: 5vh;
+  font-size: 18px;
+}
+.fav-button:hover{
+  color: black;
+  
 }
