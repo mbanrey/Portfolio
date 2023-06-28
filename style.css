@@ -74,9 +74,10 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-decoration-color: black;
     text-align: center;
+    
     
 }
 .job{
@@ -88,9 +89,10 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-decoration-color: black;
     text-align: center;
+    
 }
 .specialist{
   margin:2vh  auto;
@@ -101,9 +103,10 @@ body {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-decoration-color: black;
     text-align: center;
+    
 }
 #quote-container{
   margin: auto;
@@ -219,13 +222,18 @@ body {
   0% {
     top: -500px;
     opacity: 0;
+    text-decoration: none;
+    visibility: visible;
   }
   5%{
     opacity: 1;
+    text-decoration: none;
+    visibility: visible;
   }
   100%{
     top: 0px;
     opacity: 1;
+    visibility: visible;
   }
     
 }
@@ -258,4 +266,103 @@ body {
   animation-delay: 1s;
   
 
+}
+.specialist span{
+  font-size: 35px;
+    font-family: 'Iceberg', cursive;
+    background-image: linear-gradient(0deg,#380036
+    ,#0CBABA );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position:relative;
+    animation: mymove 3s;
+  
+
+  
+  
+
+}
+.specialist span:nth-child(2){
+  animation-delay: 0.6s;
+  
+
+}
+.specialist span:nth-child(3){
+  animation-delay: 0.8s;
+  
+
+}
+.specialist span:nth-child(4){
+  animation-delay: 1s;
+  
+
+}
+.specialist span:nth-child(5){
+  animation-delay: 1.2s;
+  
+
+}
+.specialist span:nth-child(6){
+  animation-delay: 1.4s;
+  
+
+}
+.specialist span:nth-child(7){
+  animation-delay: 1.6s;
+  
+
+}
+.specialist span:nth-child(8){
+  animation-delay: 1.8s;
+  
+
+}
+.specialist span:nth-child(9){
+  animation-delay: 2s;
+  
+
+}
+.skills-title{
+  font-size: 35px;
+    font-family: 'Iceberg', cursive;
+    background-image: linear-gradient(0deg,#380036
+    ,#0CBABA );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.skills-sub-title{
+  text-align: left;
+  font-size: 35px;
+    font-family: 'Iceberg', cursive;
+    background-image: linear-gradient(0deg,#380036
+    ,#0CBABA );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position:relative;
+}
+.projects-title{
+  text-align: center;
+  font-size: 35px;
+    font-family: 'Iceberg', cursive;
+    background-image: linear-gradient(0deg,#380036
+    ,#0CBABA );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position:relative;
+}
+.about-title{
+  text-align: center;
+  font-size: 35px;
+    font-family: 'Iceberg', cursive;
+    background-image: linear-gradient(0deg,#380036
+    ,#0CBABA );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position:relative;
 }
